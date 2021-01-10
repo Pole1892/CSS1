@@ -1,0 +1,28 @@
+a[href*="google"]{
+    color:rgb(20, 175, 97);
+}
+a[target]{
+    color: red;
+}
+#second-div p:nth-child(odd) {
+    background-color: rgb(92, 92, 246);
+}
+#second-div p:nth-child(even) {
+    background-color: rgb(245, 82, 82);
+}
+#first-div p::after{
+    content: " -New";
+    color: rgb(214, 214, 30);
+}
+#first-div p{
+    color: black;
+}
+#second-div p::after{
+    content: none;
+}
+body p:last-of-type:hover{
+    font-style: italic;
+}
+#first-div p:hover{
+    font-style: normal;
+}
